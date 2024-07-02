@@ -6,6 +6,6 @@ app.use(bodyParser.json())
 
 
 const medRouter = require('./routes/medicine')
-//iman
+//iman imangit
  app.use('/medicines',medRouter)
 app.listen(3000)
