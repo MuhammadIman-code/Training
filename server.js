@@ -6,5 +6,6 @@ app.use(bodyParser.json())
 
 
 const medRouter = require('./routes/medicine')
+//iman
  app.use('/medicines',medRouter)
 app.listen(3000)
