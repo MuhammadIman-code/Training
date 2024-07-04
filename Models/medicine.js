@@ -10,6 +10,14 @@ const medSchema = new mongoose.Schema({
     quantity : {
         type: Number
     },
+    userName :{
+        type: String,
+      required:true,
+    },
+    password : {
+        type: String,
+        required:true,
+    }
 }) 
 
 
